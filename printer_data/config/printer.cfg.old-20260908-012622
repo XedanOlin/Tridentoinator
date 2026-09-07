@@ -1,6 +1,3 @@
-# Happy Hare MMU includes (should be near top of file)
-[include mmu/base/*.cfg]
-[include mmu/macros/*.cfg]
 #Detected UUID: 0e74fe4b72b7, Application: Klipper - ERCF
 #Detected UUID: bc45d4b7c188, Application: Klipper - SB2040
 
@@ -19,9 +16,6 @@ canbus_uuid: 951c9c04eb7d
 [include goose_purge.cfg]
 [include shell_command.cfg]
 [include Klippain-ShakeTune.cfg]
-
-# Happy Hare Client macros (should be after last include or other PAUSE/CANCEL macros)
-[include mmu/optional/client_macros.cfg]
 
 [extruder]
  nozzle_diameter: 0.5
